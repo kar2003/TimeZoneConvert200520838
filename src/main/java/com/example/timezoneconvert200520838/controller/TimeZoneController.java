@@ -2,8 +2,6 @@ package com.example.timezoneconvert200520838.controller;
 
 import com.example.timezoneconvert200520838.Main;
 import com.example.timezoneconvert200520838.model.TimezoneInfo;
-import javafx.animation.PauseTransition;
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +11,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import javafx.util.Duration;
 import org.asynchttpclient.*;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -21,7 +18,6 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
-import java.util.Objects;
 
 public class TimeZoneController {
     @FXML
@@ -67,7 +63,9 @@ public class TimeZoneController {
                         // Getting Zones array
                         JSONArray zonesArray = (JSONArray) jsonResult.get("Zones");
                         // Getting the first element in the array
-                        JSONObject firstZone = (JSONObject) zonesArray.getFirst();
+//                        JSONObject firstZone = (JSONObject) zonesArray.getFirst();
+                        JSONObject firstZone = (JSONObject) zonesArray.get(0);
+
 
 
                         TimezoneInfo timezoneInfo = new TimezoneInfo();
