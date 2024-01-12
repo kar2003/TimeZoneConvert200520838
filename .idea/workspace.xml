@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03410b4-603e-452c-a1d2-727c2682f3c4" name="Changes" comment="MVC changes">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/timezoneconvert200520838/model/TimezoneInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/timezoneconvert200520838/time-zone.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timezoneconvert200520838/controller/TimeZoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/timezoneconvert200520838/controller/TimeZoneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timezoneconvert200520838/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/timezoneconvert200520838/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/timezoneconvert200520838/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/timezoneconvert200520838/result.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="a03410b4-603e-452c-a1d2-727c2682f3c4" name="Changes" comment="main, fxml and added css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,11 +68,29 @@
       <option name="project" value="LOCAL" />
       <updated>1705095352571</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="controller changes">
+      <option name="closed" value="true" />
+      <created>1705096530463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705096530463</updated>
+    </task>
+    <task id="LOCAL-00003" summary="main, fxml and added css">
+      <option name="closed" value="true" />
+      <created>1705096578893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705096578893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MVC changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVC changes" />
+    <MESSAGE value="controller changes" />
+    <MESSAGE value="main, fxml and added css" />
+    <option name="LAST_COMMIT_MESSAGE" value="main, fxml and added css" />
   </component>
 </project>
